@@ -1,8 +1,24 @@
-pokemonList
-<script>
-let Pokemon1 = {
-let name = 'Metapod';
-let height = .7
-let type = 'bug','shed skin'
-};
+let pokemonList = [ 
+    {
+        name: 'Metapod',
+        height: .7,
+        type: ['bug','shed skin']
+    },
+
+
+    {
+        name: 'Metapod',
+        height: .7,
+        type: ['bug','shed skin']
+    },
+
+    {
+        name: 'Metapod',
+        height: .7,
+        type: ['bug','shed skin']
+    }
+]
+
+console.log(pokemonList)
+
 
